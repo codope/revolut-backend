@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acae13ee-499e-426d-b63f-78a1bb851936" name="Default Changelist" comment="" />
+    <list default="true" id="acae13ee-499e-426d-b63f-78a1bb851936" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneytransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moneytransfer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/backend/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/backend/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/moneytransfer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/moneytransfer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/revolut/backend/TransactionServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/revolut/backend/TransactionServiceTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +40,7 @@
   </component>
   <component name="ProjectId" id="1SjzzC0riFg2YlvmIFkBVegpnnJ" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.revolut.backend in moneytransfer">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.revolut.backend.App" />
       <module name="moneytransfer" />
@@ -118,8 +133,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.revolut.backend in moneytransfer" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.com.revolut.backend in moneytransfer" />
         <item itemvalue="JUnit.TransactionServiceTest" />
         <item itemvalue="JUnit.AccountServiceTest" />
       </list>
@@ -140,5 +155,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -7,6 +7,8 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import static com.revolut.backend.AppConfig.getAccountService;
 import static com.revolut.backend.AppConfig.getErrorHandler;
@@ -25,11 +27,13 @@ public class App
     private static final int SERVER_PORT = 8000;
     private static final int MAX_QUEUED_CONN = 100; // maximum number of queued incoming connections to allow on the listening socket
     private static final String ROUTE = BASE_PATH + API_VERSION;
+    private static final Logger LOGGER = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args)
             throws IOException
     {
         HttpServer server = HttpServer.create(new InetSocketAddress(SERVER_PORT), MAX_QUEUED_CONN);
+        LOGGER.log(Level.INFO, "Started server at http://localhost:" + SERVER_PORT);
         // account service handler
         AccountHandler accountHandler = new AccountHandler(getAccountService(), getObjectMapper(), getErrorHandler());
         server.createContext(ROUTE + ACCOUNT_ENDPOINT, accountHandler::handle);
