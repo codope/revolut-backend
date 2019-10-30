@@ -1,4 +1,8 @@
-moneytransfer.iml
-moneytransfer.ipr
-moneytransfer.iws
-/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
